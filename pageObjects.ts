@@ -12,7 +12,7 @@ export class madewellPage extends BasePage {
 
     //second test add to bag, search button, what are you looking for, magnifying icon first
     shirtBtn: By = By.xpath ('(//img[@class="primary-image lazyautosizes lazyloaded"])[9]')
-    shirtSize: By = By.xpath('(//li[@class="selectable  "])[4]')
+    shirtSize: By = By.xpath('(//li[@class="selectable  "])[3]')
     addToBagBtn: By = By.xpath('//div[@class="add-to-cart-button-wrapper js-capture-disabled-click"]')
     bagIcon: By = By.xpath('//span[@class="mini-cart-icon-alignment"]')
     shoppingBagHeader: By = By.xpath('//h1[@class="cart-header"]')
